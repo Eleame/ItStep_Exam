@@ -1,0 +1,70 @@
+header{
+    width: 170px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #F6F6F6;
+    border-right: 1px solid #D8D8D8;
+}
+
+header .logo{
+    font-weight: 700;
+    font-size: 16px;
+    padding: 20px;
+    border-bottom: 1px solid $color_light_grey;
+}
+
+header nav{
+    padding: 20px 15px;
+}
+
+.panel ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.panel svg{
+    width: 12px;
+    height: 12px;
+    margin: -2px;
+    fill: $color_light_grey;
+}
+
+.panel a{
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    margin: 5px 0;
+}
+
+.panel .active{
+    background: $color_red;
+}
+
+.active svg,
+.active span{
+    color: #FFFFFF;
+    fill: #FFFFFF;
+}
+
+.panel li:hover a{
+    background: $color_red;
+}
+
+.panel li:hover svg,
+.panel li:hover span{
+    color: #FFFFFF;
+    fill: #FFFFFF;
+}
+
+.panel .menu_sub{
+    padding: 10px;
+}
+
+.page_info{
+    padding: 20px 0 45px 0;
+    font-weight: 700;
+    font-size: 16px;
+    color: $color_grey;
+}
