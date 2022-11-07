@@ -116,6 +116,7 @@ main{
     display: flex;
     transform: translateY(-24px);
     margin-bottom: -14px;
+    padding: 9px 21px;
 }
 
 .active_bar{
@@ -231,6 +232,10 @@ main{
     text-align: center;
 }
 
+.user_form_table{
+    order: 2;
+}
+
 .user_form{
     display: grid;
     justify-items: center;
@@ -283,8 +288,7 @@ main{
     position: absolute;
     top: 50%;
     left: 0;
-    width: 200px;
-    transform: translateY(-250%)
+    transform: translateY(-250%);
 }
 
 .user_form input:focus + label{
@@ -314,6 +318,7 @@ main{
 }
 
 .user_info{
+    order: 2;
     height: 220px;
     text-align: center;
     position: relative;
@@ -324,7 +329,7 @@ main{
 }
 
 .img_spase{
-    margin-top: 50px;
+    margin-top: 55px;
 }
 
 .user_info img{
