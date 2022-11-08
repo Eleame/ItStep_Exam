@@ -674,7 +674,7 @@ footer {
     grid-template-columns: 1fr 1fr;
   }
   .host_sales {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 15px;
   }
   .sales {
@@ -695,11 +695,16 @@ footer {
     grid-template-columns: 1fr 250px;
   }
   .task_stat {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
   footer {
     margin-left: 185px;
     text-align: left;
+  }
+}
+@media screen and (min-width: 850px) {
+  .task_stat {
+    grid-template-columns: 1fr 1fr;
   }
 }
 @media screen and (min-width: 1000px) {
